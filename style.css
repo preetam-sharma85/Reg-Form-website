@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppons',sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  max-height: 500px;
+  height: 100%; 
+  padding: 25px 25px;
+  border-radius: 25px;
+}
+.container .title{
+  margin-left: 240px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container form, .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form .user-details, .input-box{
+  width: calc(100%/2-20px);
+ margin: 20px 0 12px 0;
+}
+.user-details, .input-box, .details{
+  font-weight: 700px;
+  margin-bottom: 6px;
+  
+}
+.user-details, .input-box input{
+  height: 45px;
+  width: 100;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-bottom-width: 3px;
+  transition: all 0.4 ease;
+}
+.user-details, .input-box input:focus,
+.user-details, .input-box input:valid{
+  border-color: #9796f0;
+
+}
+.gender-details, .gender-title{
+  font-size: 17px;
+  font-weight: 600;
+  margin: 15px;
+  margin-left: 12px;
+
+}
+ .category, .gender{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 14p 0x;
+  margin-right: 65px;
+  margin-top: 8px;
+  margin-left: 14px;
+  font-weight: 500;
+}
+.details{
+  font-weight: bold;
+}
+.category label{
+  display: flex;
+  align-items: center;
+}
+.dot-one{
+  height: 16px;
+  width: 16px
+}
+.button input{
+  padding: 12px 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  margin-left: 130px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(54, 54, 221); 
+  border: none;
+  border-radius: 50px;
+}
+.button input:hover{
+  opacity: 0.8;
+}
+.button input:active{
+  opacity: 0.5;
+  border: black;
+}
